@@ -1,20 +1,23 @@
 public class Dado {
 
-    /*
-    * Este programa simula el comportamiento de un dado
-    * Así que puedes venir y lanzar el dado.
-    * */
+    //ATRIBUTOS:
+    private String jugador;
+    private int dado;
 
-    public static void main(String[] args){
+    //CONTRUCTOR:
+    public Dado(String jugador) {
+        this.jugador = jugador;
+    }
 
-        int dado;
-        //Casting: es la propiedad de transforma de un tipo
-        // de dato a otro:
-        // 0+1=1, 1+1=2, 2+1=3, 3+1=4, 4+1=5, 5+1=6
-        dado=((int)(Math.random()*6))+1;
+    //COMPORTAMIENTO:
+    public void tirarDado(){
+
+        //Nos genera un aleatorio entre 1 y 6:
+        this.dado=((int)(Math.random()*6))+1;
 
         //Inicializando la varible de tipo DadoTexto.
-        DadoTexto texto= DadoTexto.UNO;
+        DadoTexto texto = DadoTexto.TRES;
+        //Este valor va a cambiar
 
         switch (dado){
             case 1:
@@ -36,9 +39,6 @@ public class Dado {
                 texto=DadoTexto.SEIS;
                 break;
         }
-
-        System.out.println("El resultado de lanzar es dado es: "+texto);
-
+        System.out.println("\n\tEl resultado de lanzar el dado de "+this.jugador+" es: "+texto);
     }
-
 }

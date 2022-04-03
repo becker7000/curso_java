@@ -1,6 +1,6 @@
 public class TestDado {
 
-    //Aquí probamos nuestra clase dado:
+    //Aquí probamos nuestra clase Dado:
 
     public static void main(String[] args){
 

@@ -4,7 +4,7 @@ public class Dado {
     private String jugador;
     private int dado;
 
-    //CONTRUCTOR:
+    //CONSTRUCTOR:
     public Dado(String jugador) {
         this.jugador = jugador;
     }

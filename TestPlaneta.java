@@ -1,6 +1,6 @@
 public class TestPlaneta {
 
-    //Aquí venimos a probar la clase planeta:
+    //Aquí venimos a probar la clase Planeta:
 
     public static void main(String[] args){
 

@@ -1,6 +1,6 @@
 public class TestCirculo {
 
-    //Este es el ejecutable
+    //Este es el ejecutable:
 
     public static void main(String[] args){
 

@@ -1,6 +1,6 @@
 public class Circulo {
 
-    //Esta es una clase
+    //Esta es una clase.
     //El Scope es el ambito o lugar donde es reconocida una varible.
     //Los atributos siempre van privados.
     private double radio;

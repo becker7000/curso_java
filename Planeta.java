@@ -14,8 +14,8 @@ public class Planeta {
     @Override
     public String toString() {
         return " \n\t Planeta{" +
-                "nombre = '" + nombre + '\'' +
-                ", posicion respecto del Sol = " + posicion +
+                "Nombre = '" + nombre + '\'' +
+                ", Posicion respecto del Sol = " + posicion +
                 '}';
     }
 }
